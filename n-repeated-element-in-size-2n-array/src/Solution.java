@@ -3,6 +3,9 @@ import java.util.HashSet;
 import java.util.Map;
 
 /**
+ *
+ * 重复n次的数组
+ *
  * 在大小为 2N 的数组 A 中有 N+1 个不同的元素，其中有一个元素重复了 N 次。
  * <p>
  * 返回重复了 N 次的那个元素。

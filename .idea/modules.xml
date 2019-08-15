@@ -7,7 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/deleteNode/deleteNode.iml" filepath="$PROJECT_DIR$/deleteNode/deleteNode.iml" />
       <module fileurl="file://$PROJECT_DIR$/findRepeatEmail/findRepeatEmail.iml" filepath="$PROJECT_DIR$/findRepeatEmail/findRepeatEmail.iml" />
       <module fileurl="file://$PROJECT_DIR$/gemsAndStones/gemsAndStones.iml" filepath="$PROJECT_DIR$/gemsAndStones/gemsAndStones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intersection-of-two-arrays/intersection-of-two-arrays.iml" filepath="$PROJECT_DIR$/intersection-of-two-arrays/intersection-of-two-arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/n-repeated-element-in-size-2n-array/n-repeated-element-in-size-2n-array.iml" filepath="$PROJECT_DIR$/n-repeated-element-in-size-2n-array/n-repeated-element-in-size-2n-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/subdomain-visit-count/subdomain-visit-count.iml" filepath="$PROJECT_DIR$/subdomain-visit-count/subdomain-visit-count.iml" />
     </modules>
   </component>
 </project>
