@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/KeyboardRow/KeyboardRow.iml" filepath="$PROJECT_DIR$/KeyboardRow/KeyboardRow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RemoveOutermostParentheses/RemoveOutermostParentheses.iml" filepath="$PROJECT_DIR$/RemoveOutermostParentheses/RemoveOutermostParentheses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deleteNode/deleteNode.iml" filepath="$PROJECT_DIR$/deleteNode/deleteNode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/findRepeatEmail/findRepeatEmail.iml" filepath="$PROJECT_DIR$/findRepeatEmail/findRepeatEmail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gemsAndStones/gemsAndStones.iml" filepath="$PROJECT_DIR$/gemsAndStones/gemsAndStones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/n-repeated-element-in-size-2n-array/n-repeated-element-in-size-2n-array.iml" filepath="$PROJECT_DIR$/n-repeated-element-in-size-2n-array/n-repeated-element-in-size-2n-array.iml" />
+    </modules>
+  </component>
+</project>
