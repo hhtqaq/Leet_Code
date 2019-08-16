@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 /**
  * 子域名访问计数
@@ -34,41 +31,38 @@ import java.util.List;
 public class Solution {
     public static List<String> subdomainVisits(String[] cpdomains) {
         List<String> list = new ArrayList<>();
-        List<String> list1 = new ArrayList<>();
         HashMap<String, Integer> map = new HashMap<>();
+        String site = "";
+        int times;
         for (int i = 0; i < cpdomains.length; i++) {
             String[] s = cpdomains[i].split(" ");
-            //获取次数
-            String t1 = s[0];
-            //获取域名
-            String s1 = s[1];
-            String[] split = s1.split("\\.");
+            site = s[1];
+            String[] split = site.split("\\.");
+            times = Integer.parseInt(s[0]);
             int length = split.length;
-            list1.add(s1);
+            //三级
+            put(map, site, times);
             //二级
-            if(length == 2){
-                String s2 = split[length - 1];
-                list1.add(s2);
-            }
+            put(map, split[length - 1], times);
             if (length == 3) {
-                String s2 = split[length - 1];
-                String s3 = split[length - 1]+"."+split[length - 1];
-                list1.add(s2);
-                list1.add(s3);
-            }
-            int t2 = Integer.parseInt(t1);
-            for (int i1 = 0; i1 < list1.size(); i1++) {
-                String s3 = list1.get(i1);
-                Integer j = map.get(s3);
-                if (j != null) {
-                    map.put(s3, t2 + j);
-                } else {
-                    map.put(s3, t2);
-                }
+                String s3 = split[length - 2] + "." + split[length - 1];
+                put(map, s3, times);
             }
         }
-        map.forEach((k, v) -> list.add(v + " " + k));
+        //这个方式遍历   比使用 map.forEach((k, v) -> list.add(k + " " + v));快很多
+        for(String s:map.keySet()){
+            list.add(map.get(s)+" "+s);
+        }
+
         return list;
+    }
+
+    private static void put(Map<String, Integer> map, String key, Integer val) {
+        if (map.containsKey(key)) {
+            map.put(key, map.get(key) + val);
+        } else {
+            map.put(key, val);
+        }
     }
 
     public static void main(String[] args) {
