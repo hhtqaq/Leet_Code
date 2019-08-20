@@ -10,7 +10,9 @@
       <module fileurl="file://$PROJECT_DIR$/flipping-an-image/flipping-an-image.iml" filepath="$PROJECT_DIR$/flipping-an-image/flipping-an-image.iml" />
       <module fileurl="file://$PROJECT_DIR$/gemsAndStones/gemsAndStones.iml" filepath="$PROJECT_DIR$/gemsAndStones/gemsAndStones.iml" />
       <module fileurl="file://$PROJECT_DIR$/intersection-of-two-arrays/intersection-of-two-arrays.iml" filepath="$PROJECT_DIR$/intersection-of-two-arrays/intersection-of-two-arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/largest-number-at-least-twice-of-others/largest-number-at-least-twice-of-others.iml" filepath="$PROJECT_DIR$/largest-number-at-least-twice-of-others/largest-number-at-least-twice-of-others.iml" />
       <module fileurl="file://$PROJECT_DIR$/n-repeated-element-in-size-2n-array/n-repeated-element-in-size-2n-array.iml" filepath="$PROJECT_DIR$/n-repeated-element-in-size-2n-array/n-repeated-element-in-size-2n-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plus-one/plus-one.iml" filepath="$PROJECT_DIR$/plus-one/plus-one.iml" />
       <module fileurl="file://$PROJECT_DIR$/subdomain-visit-count/subdomain-visit-count.iml" filepath="$PROJECT_DIR$/subdomain-visit-count/subdomain-visit-count.iml" />
     </modules>
   </component>
