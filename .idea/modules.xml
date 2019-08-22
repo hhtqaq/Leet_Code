@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/KeyboardRow/KeyboardRow.iml" filepath="$PROJECT_DIR$/KeyboardRow/KeyboardRow.iml" />
       <module fileurl="file://$PROJECT_DIR$/RemoveOutermostParentheses/RemoveOutermostParentheses.iml" filepath="$PROJECT_DIR$/RemoveOutermostParentheses/RemoveOutermostParentheses.iml" />
       <module fileurl="file://$PROJECT_DIR$/deleteNode/deleteNode.iml" filepath="$PROJECT_DIR$/deleteNode/deleteNode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/diagonal-traverse/diagonal-traverse.iml" filepath="$PROJECT_DIR$/diagonal-traverse/diagonal-traverse.iml" />
       <module fileurl="file://$PROJECT_DIR$/find-mid-index/find-mid-index.iml" filepath="$PROJECT_DIR$/find-mid-index/find-mid-index.iml" />
       <module fileurl="file://$PROJECT_DIR$/findRepeatEmail/findRepeatEmail.iml" filepath="$PROJECT_DIR$/findRepeatEmail/findRepeatEmail.iml" />
       <module fileurl="file://$PROJECT_DIR$/flipping-an-image/flipping-an-image.iml" filepath="$PROJECT_DIR$/flipping-an-image/flipping-an-image.iml" />
