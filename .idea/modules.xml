@@ -14,8 +14,10 @@
       <module fileurl="file://$PROJECT_DIR$/largest-number-at-least-twice-of-others/largest-number-at-least-twice-of-others.iml" filepath="$PROJECT_DIR$/largest-number-at-least-twice-of-others/largest-number-at-least-twice-of-others.iml" />
       <module fileurl="file://$PROJECT_DIR$/n-repeated-element-in-size-2n-array/n-repeated-element-in-size-2n-array.iml" filepath="$PROJECT_DIR$/n-repeated-element-in-size-2n-array/n-repeated-element-in-size-2n-array.iml" />
       <module fileurl="file://$PROJECT_DIR$/plus-one/plus-one.iml" filepath="$PROJECT_DIR$/plus-one/plus-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/range-sum-of-bst/range-sum-of-bst.iml" filepath="$PROJECT_DIR$/range-sum-of-bst/range-sum-of-bst.iml" />
       <module fileurl="file://$PROJECT_DIR$/spiral-matrix/spiral-matrix.iml" filepath="$PROJECT_DIR$/spiral-matrix/spiral-matrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/subdomain-visit-count/subdomain-visit-count.iml" filepath="$PROJECT_DIR$/subdomain-visit-count/subdomain-visit-count.iml" />
+      <module fileurl="file://$PROJECT_DIR$/to-lower-case/to-lower-case.iml" filepath="$PROJECT_DIR$/to-lower-case/to-lower-case.iml" />
     </modules>
   </component>
 </project>
