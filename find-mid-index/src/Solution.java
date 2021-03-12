@@ -30,7 +30,7 @@ public class Solution {
     public static int[] subArray(int[] nums, int start, int end) {
         int length = end - start + 1;
         if (end < start) return null;
-        int newNums[] = new int[length];
+        int[] newNums = new int[length];
         for (int i = 0; start <= end; i++, start++) {
             newNums[i] = nums[start];
         }
@@ -50,6 +50,7 @@ public class Solution {
 
     /**
      * 暴力 傻瓜式解法 虽然结果正确  但是超时不能通过
+     *
      * @param args
      */
     public static void main(String[] args) {
